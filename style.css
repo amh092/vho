@@ -108,7 +108,7 @@ img {
   }
   header {
     display: flex;
-    width: 80%;
+    width: 100%;
     flex-flow: column-reverse wrap;
  
     justify-items: center;
