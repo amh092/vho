@@ -149,14 +149,30 @@ img {
   .first-level div {
     margin-top: .625em;
   }
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 1.25em;
+    background: white;
+    padding: .625em;
+   
+  
+   
+    width: 23.4375em;
+    height: 2.5em;
+  }
 }
 
 footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   margin-top: 1.25em;
-  background: white;
+
   padding: .625em;
   border: .0625em solid gray;
-  box-shadow: inset 1px 1px 5px 1px black;
+
 
  
   width: 100%;
@@ -169,7 +185,8 @@ svg {
 
 }
 
-svg path {
-  fill: black;
-}
 
+
+.you-tube svg path {
+  fill: unset;
+}
