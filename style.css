@@ -2,7 +2,7 @@ hr {
   border-style: dashed;
 }
 body {
-  width: 1440px;
+  width: 90em;
   margin: 0 auto;
 }
 
@@ -14,8 +14,8 @@ header {
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 12.5em;
+  width: 12.5em;
 }
 
 .first-level {
@@ -28,12 +28,12 @@ img {
 .first-level h1:first-of-type {
   white-space: pre-wrap ;
   text-align: right;
-  font-size: 16px;
+  font-size: 1em;
 }
 .first-level h1 {
-  font-size: 16px;
+  font-size: 1em;
   text-align: center;
-  padding: 2px 10px;
+  padding: .125em .625em;
 }
 
 /* font custom classes */
@@ -44,9 +44,9 @@ img {
 
 .leaders:not(.leader h1:first-of-type) {
   background-color: rgba(238, 105, 28, 0.836);
-  border-radius: 20px;
+  border-radius: 1.25em;
   
-  padding: 1px 10px;
+  padding: .0625em .625em;
   
 
 }
@@ -56,21 +56,21 @@ img {
   flex-flow: row wrap;
   width: 100%;
   justify-content: space-around;
-  margin-top: 1.25rem;
+  margin-top: 1.25em;
 }
 
 
 .management-seg {
-  padding: 5px; 
-  border-radius: 20px;
+  padding: .3125em; 
+  border-radius: 1.25em;
   background-color: rgba(241, 198, 6, 0.815);
-  min-width: 200px;
-  max-height: 100px;
+  min-width: 12.5em;
+  max-height: 6.25em;
  
 
 }
 .management-seg h1 {
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .color-red {
@@ -82,7 +82,7 @@ img {
   display: flex;
   flex-flow: row wrap ;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
 
 .hours {
@@ -93,20 +93,22 @@ img {
 }
 
 .members h1 {
-  max-height: 50px;
-  padding: 20px;
-  min-width: 200px;
+  max-height: 3.125em;
+  padding: 1.25em;
+  min-width: 12.5em;
   background: rgb(15, 214, 181);
-  margin-top: 10px;
-  border-radius: 20px;
-  font-size: 16px;
+  margin-top: .625em;
+  border-radius: 1.25em;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 480px) {
   body {
-    width: 480px;
+    width: 30em;
+    min-height: 2200px;
   }
   header {
+    
     display: flex;
     width: 100%;
     flex-flow: column-reverse wrap;
@@ -118,13 +120,22 @@ img {
   }
 .container {
   width: 80%;
-  margin-top: .75rem;
+  margin-top: .75em;
+}
+.first-level h1:first-of-type {
+  widows: 12.2em;
+  text-align: center;
 }
   .national h1 {
     text-align: center;
   }
   hr{
     text-align: center;
+  }
+
+  .leaders {
+   width: 23.125em;
+   align-self: center;
   }
 
   .first-level {
@@ -136,6 +147,6 @@ img {
 
   }
   .first-level div {
-    margin-top: 10px;
+    margin-top: .625em;
   }
 }
